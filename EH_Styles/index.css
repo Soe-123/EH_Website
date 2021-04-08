@@ -198,6 +198,8 @@ header .nav-dropdown-content {
   background-color: var(--black);
   min-width: 200px;
   z-index: 1;
+  left: 50%;
+  margin-left: -100px;
 
 }
   
@@ -415,35 +417,35 @@ article picture {
   object-fit: cover;
   overflow: hidden;
   margin-bottom: 16px;
-  background-image: url("/EH_Website_Images/EH_Background_4.jpg");
+  background-image: url("https://www.dropbox.com/s/9vgoc7sajccybyz/EH_Background_4.jpg?raw=1");
 }
 
 article:nth-of-type(2) picture {
-  background-image: url("/EH_Website_Images/EH_Background_5.jpg");
+  background-image: url("https://www.dropbox.com/s/p0rfdk001j0vn2l/EH_Background_5.jpg?raw=1");
 }
 
 article:nth-of-type(3) picture {
-  background-image: url("/EH_Website_Images/EH_Background_2.jpg");
+  background-image: url("https://www.dropbox.com/s/enp85gxw6egocil/EH_Background_2.jpg?raw=1");
 }
 
 article:nth-of-type(4) picture {
-  background-image: url("/EH_Website_Images/EH_Background_6.jpg");
+  background-image: url("https://www.dropbox.com/s/nvwo5169a3ch1os/EH_Background_6.jpg?raw=1");
 }
 
 article:nth-of-type(5) picture {
-  background-image: url("/EH_Website_Images/EH_Background_7.jpg");
+  background-image: url("https://www.dropbox.com/s/zejau07hcvkelmx/EH_Background_7.jpg?raw=1");
 }
 
 article:nth-of-type(6) picture {
-  background-image: url("/EH_Website_Images/EH_Background_8.jpg");
+  background-image: url("https://www.dropbox.com/s/dn4qhwldzf40qom/EH_Background_8.jpg?raw=1");
 }
 
 article:nth-of-type(7) picture {
-  background-image: url("/EH_Website_Images/EH_Background_9.jpg");
+  background-image: url("https://www.dropbox.com/s/f0hxh7o80b3hjbx/EH_Background_9.jpg?raw=1");
 }
 
 article:nth-of-type(8) picture {
-  background-image: url("/EH_Website_Images/EH_Background_10.jpg");
+  background-image: url("https://www.dropbox.com/s/1i958ss9llrr3jf/EH_Background_10.jpg?raw=1");
 }
 
 
@@ -524,7 +526,7 @@ section li::before{
   display: inline-block;
   height: 16px;
   width: 32px;
-  background-image: url("/EH_Website_Images/EH_Arrow_2_Web.svg");
+  background-image: url("https://www.dropbox.com/s/p9dpfsdjcyqjncc/EH_Arrow_2_Web.svg?raw=1");
   background-repeat: no-repeat;
   margin-left: -40px;
   padding-right: 6px;
@@ -685,15 +687,15 @@ time {
   margin-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("/EH_Website_Images/EH_Background_2.jpg");
+  background-image: url("https://www.dropbox.com/s/enp85gxw6egocil/EH_Background_2.jpg?raw=1");
 }
 
 .team-member:nth-of-type(2) picture {
-  background-image: url("/EH_Website_Images/EH_Background_7.jpg");
+  background-image: url("https://www.dropbox.com/s/zejau07hcvkelmx/EH_Background_7.jpg?raw=1");
 }
 
 .team-member:nth-of-type(3) picture {
-  background-image: url("/EH_Website_Images/EH_Background_6.jpg");
+  background-image: url("https://www.dropbox.com/s/nvwo5169a3ch1os/EH_Background_6.jpg?raw=1");
 }
 
 .team-member picture .melissa {
@@ -828,34 +830,35 @@ section dl a {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  bottom: -32px;
+  right: 0;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+  padding: 0px;
   color: white;
   transition: 0.6s ease;
   user-select: none;
 }
 
 .prev img {
-  width: 50px;
+  width: 36px;
   transform: rotate(180deg);
   filter: invert();
 }
 
 .next img {
-  width: 50px;
+  width: 36px;
   filter: invert();
 }
 
 /* Position the "next button" to the right */
-.next {
-  right: 0;
+.prev {
+  right: 40px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: var(--accentRed)
+  color: var(--accentRed);
 }
 
 /* Caption text */
@@ -967,7 +970,7 @@ footer ul {
 }
 
 .footer-info div:first-child {
-  flex-basis: 40;
+  flex-basis: 20%;
 }
 
 .footer-info div:nth-child(2) {
@@ -975,7 +978,11 @@ footer ul {
 }
 
 .footer-info div:nth-child(3) {
-  flex-basis: 40%;
+  flex-basis: 25%;
+}
+
+.footer-info div:nth-child(4) {
+  flex-basis: 25%;
 }
 
 footer form {
@@ -1131,6 +1138,8 @@ header .nav-dropdown:active .nav-dropdown-content {
 nav .nav-dropdown-content {
   display: none;
   position: relative;
+  left: 0;
+  margin-left: 0;
 }
 
 nav .nav-journal {
@@ -1242,7 +1251,10 @@ article .read-more {
   bottom: -48px;
   right: 0;
   width: 100%;
-  text-align: right;
+}
+
+.prev, .next {
+padding-right: 20px;
 }
 
 footer form {

@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="./EH_Styles/normalize.css" />
     <link rel="stylesheet" href="./EH_Styles/index.css" />
     <title>Engage Here</title>
+ <script>
+        $(function() {
+          $.scrollify({
+            section : ".section-index",
+          });
+        });
+</script>  
 </head>
 <body>
     <header>
@@ -33,7 +40,6 @@
                     <div class="nav-dropdown-content">
                         <a href="./art-at-home.html">Art at Home</a>
                         <a href="./process-workshops.html">Process Workshops</a>
-                        <a href="#">Other</a>
                     </div>
                 </div>
                 <a class="nav-journal" href="./journal.html">Journal</a>
@@ -41,10 +47,9 @@
                     <button class="nav-dropdown-button">Support</button>
                     <div class="nav-dropdown-content">
                         <a href="./donate.html">Donate</a>
-                        <a href="#">Events</a>
                     </div>
                 </div>
-                <a class="nav-contact" href="http://">Contact</a>
+                <a class="nav-contact" href="#footer">Contact</a>
             </div> 
             
             
@@ -82,7 +87,7 @@
             </div>
             <div class="half-page-index">
                 <picture>
-                    <img src="https://www.dropbox.com/s/m10infan9t9fma5/EH_Aspaceforus_1.jpg?raw=1" alt="Man holding a drawing ">
+                    <img src="https://www.dropbox.com/s/m10infan9t9fma5/EH_Aspaceforus_1.jpg?raw=1" alt="Woman screenprinting">
                 </picture>
             </div>
         </section>
@@ -90,20 +95,19 @@
         <section class="section-index">
             <div class="half-page-index">
                 <picture>
-                    <img src="https://www.dropbox.com/s/m10infan9t9fma5/EH_Aspaceforus_1.jpg?raw=1" alt="Man holding a drawing ">
+                    <img src="https://www.dropbox.com/s/u82arl0igimz65s/EH_Art_Kit_Temp.jpg?raw=1" alt=" Wrapped and numbered parcels">
                 </picture>
             </div>
             <div class="half-page background-half three">
                 <h2>Art Kits</h2>
                 <p>Kits with materials and instructions for 
                     different creative processes to do at homes</p>
-                <a href="">More Info
-                <img src="https://www.dropbox.com/s/p9dpfsdjcyqjncc/EH_Arrow_2_Web.svg?raw=1" alt="Arrow">
+                <a href="">Coming Soon
                 </a>
             </div>
         </section>
     </main>
-        <footer>
+        <footer id=footer>
             <form  action="https://formspree.io/f/mrgybjer"
             method="POST">
                 <label for="email">Join our newsletter</label>
@@ -115,10 +119,11 @@
                 <p>Engage Here CIC</p>
                 <ul>
                     <li>Community Interest Company </li>
-                    <li>Private Limited by Guarantee without Share Capital</li>
+                    <li>Private Limited by Guarantee <br>without Share Capital</li>
                     <li>Company No. 12987859</li>
+                    <br>
                 </ul>
-                <p>©2019</p>
+                <p>©2021</p>
                 </ul>
             </div>
             <div>
@@ -135,7 +140,7 @@
                 </dl>
             </div>
             <div>
-                <p>For any questions regarding our services, don’t hesistate to get in contact using the details below:</p>
+                <p>For any questions regarding our services, please get in contact using the details below:</p>
                 <dl>
                     <dt>Phone</dt>
                     <dd>+44 7912497387‬</dd>
@@ -144,13 +149,17 @@
                     <dd>info@engage-here.co.uk</dd>
                 </dl>
             </div>
+            <div>
+                <p>For post including written correspondence, product returns or cheques, our address is:</p>
+                <p>
+                 Hurstmead<br>Bull Lane<br>Chislehurst<br> BR7 6NU<br>United Kingdom
+                 </p>
+            </div>
             </div>
             
         
         </footer>
-
-        
-
-    
+        <script src="http://code.jquery.com/jquery-1.7.js"></script>
+        <script src="./scrollify.js"></script>
 </body>
 </html>
