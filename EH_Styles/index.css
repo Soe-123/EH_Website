@@ -14,7 +14,8 @@
 
 @font-face{
     font-family:"Tschichold Book W05 Regular";
-    src:url("../EH_Website_Fonts/7b589fb5-b25f-4862-a3ca-d49e1418151e.woff2") format("woff2"),url("../EH_Website_Fonts/ae736a7b-d337-4ae7-8aa0-52134fbc03a1.woff") format("woff");
+    src:url("../EH_Website_Fonts/7b589fb5-b25f-4862-a3ca-d49e1418151e.woff2") format("woff2"),
+    url("../EH_Website_Fonts/ae736a7b-d337-4ae7-8aa0-52134fbc03a1.woff") format("woff");
 }
 
 @font-face{
