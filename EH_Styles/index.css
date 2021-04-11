@@ -321,9 +321,17 @@ section {
   width: 100%;
 }
 
+.section-index {
+  height: 100vh;
+}
+
 .half-page-index {
   width: 50%;
   height: 100vh;
+}
+
+.home-slideshow-container {
+	display: none;
 }
  
 section .half-page {
@@ -366,6 +374,12 @@ section .half-page.background-half.three {
   background-size: 200%;
 }
 
+section .half-page.background-half.four {
+  background-image: url("https://www.dropbox.com/s/enp85gxw6egocil/EH_Background_2.jpg?raw=1");
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
 section .half-page.normal {
   background: var(--background);
   display: flex;
@@ -382,6 +396,8 @@ section .half-page.long {
   padding: 160px 40px;
   overflow: scroll;
 }
+
+
 
 
 /* Mission, Evidence */
@@ -990,12 +1006,12 @@ section dl a {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: 1}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: 1}
   to {opacity: 1}
 }
 
@@ -1111,6 +1127,14 @@ footer button {
 
 
 @media screen and (max-width: 1000px) {
+
+.index-desktop {
+  display: none;
+}
+
+.index-mobile {
+  padding-top: 20%;
+}
   #menu-btn:checked ~ .nav-menu {
     position: relative;
     min-height: 100vh;
@@ -1310,12 +1334,37 @@ header .nav-contact {
 
 .half-page-index {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 
-.half-page.background-half {
+section .half-page.background-half {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
+  padding: 0 20px;
+}
+
+section .half-page.background-half.four {
+  display: none;
+}
+
+.section-index-mobile h2 {
+  margin-top: -80px;
+  color: var(--Yellow);
+  text-align: center;
+  font-size: 12vw;
+}
+
+.section-index-mobile a {
+margin: 0 auto;
+}
+
+.section-index-mobile p {
+  color: var(--Yellow);
+  margin-top: 10px;
+  text-align: center;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .mobile-header-image {
@@ -1361,6 +1410,14 @@ section .half-page.long {
  padding-left: 20px;
  padding-right: 20px;
  padding-bottom: 20px;
+}
+
+.half-page.normal h2 {
+  margin: 0 auto 16px auto;
+}
+
+section .half-page.normal {
+  padding-bottom: 40px;
 }
 
 section dl {
@@ -1451,6 +1508,34 @@ article .read-more {
 padding-right: 20px;
 }
 
+
+.team-member {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.team-member p {
+  font-size: 18px;
+  padding-bottom: 0px;
+}
+
+.team-member picture {
+  height: 60vw;
+  width: 60vw;
+} 
+
+
+/* Index Slideshow */
+
+
+
+
+.home-slideshow-container {
+	display: block;
+  	width: 100%;
+  	height: 90vh;
+}
+
 .testimonial {
   flex-direction: column;
   width: 100%;
@@ -1461,6 +1546,8 @@ padding-right: 20px;
   font-size: 18px;
   margin: 0;
   padding-left: 0;
+  padding-right: 0;
+
   padding-top: 30px;
   text-align: center;
 }
