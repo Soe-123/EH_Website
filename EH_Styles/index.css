@@ -1138,9 +1138,6 @@ footer button {
   display: none;
 }
 
-.index-mobile {
-  padding-top: 20%;
-}
   #menu-btn:checked ~ .nav-menu {
     position: relative;
     min-height: 100vh;
@@ -1619,6 +1616,10 @@ footer .footer-info {
   padding: 20px;
 }
 
+}
 
+@media screen and (max-width: 600px) {
 
+.index-mobile {
+  padding-top: 20%;
 }
