@@ -371,7 +371,7 @@ section .half-page.background-half.two {
 section .half-page.background-half.three {
   background-image: url("https://www.dropbox.com/s/vxal5jd3151m93z/EH_Background_3.jpg?raw=1");
   background-repeat: no-repeat;
-  background-size: 200%;
+  background-size: 300%;
 }
 
 section .half-page.background-half.four {
@@ -1044,7 +1044,7 @@ footer p {
 
 footer a {
   text-decoration: none;
-  color: black;
+  color: var(--accentBlue);
 }
 
 footer dd {
@@ -1157,7 +1157,7 @@ h1 {
 }
 
 h2 {
-  font-size: 10vw;
+  font-size: 6vw;
 }
 
 h3 {
@@ -1191,7 +1191,7 @@ section .half-page.normal {
 
 .section-instructions p {
   text-align: center;
-  font-size: 8vw;
+  font-size: 6vw;
 }
 
 .section-slideshow h3 {
@@ -1650,6 +1650,14 @@ footer .footer-info {
 h1 {
   font-size: 18px;
 padding: 16px;
+}
+
+h2 {
+font-size: 10vw;
+}
+
+.section-instructions p {
+  font-size: 10vw;
 }
 
 footer .footer-info {
