@@ -1446,15 +1446,16 @@ section blockquote cite {
 }
 
 .journal-flex {
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .journal-flex article {
-  padding: 0 0 40px 0;
+  padding: 0 10px 40px 10px;
+  flex-basis: 50%
 }
 
 article picture {
-height: 60vw;
+height: 30vw;
 }  
 
 article .read-more {
@@ -1659,6 +1660,15 @@ font-size: 10vw;
 .section-instructions p {
   font-size: 10vw;
 }
+
+.journal-flex article {
+  padding: 0 0 40px 0;
+  flex-basis: 100%
+}
+
+article picture {
+  height: 60vw;
+  } 
 
 footer .footer-info {
   flex-direction: column;
