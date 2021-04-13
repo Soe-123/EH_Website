@@ -357,25 +357,25 @@ section .half-page.background-half {
 }
 
 section .half-page.background-half.one {
-  background-image: url("https://www.dropbox.com/s/gpjabljj8fzqq7v/EH_Background_1.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_1_nasmcv.jpg");
   background-repeat: no-repeat;
   background-size: 200%;
 }
 
 section .half-page.background-half.two {
-  background-image: url("https://www.dropbox.com/s/enp85gxw6egocil/EH_Background_2.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341391/EH_Background_2_wrzma4.jpg");
   background-repeat: no-repeat;
   background-size: 200%;
 }
 
 section .half-page.background-half.three {
-  background-image: url("https://www.dropbox.com/s/vxal5jd3151m93z/EH_Background_3.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341392/EH_Background_3_t83olm.jpg");
   background-repeat: no-repeat;
   background-size: 300%;
 }
 
 section .half-page.background-half.four {
-  background-image: url("https://www.dropbox.com/s/enp85gxw6egocil/EH_Background_2.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341391/EH_Background_2_wrzma4.jpg");
   background-repeat: no-repeat;
   background-size: 200%;
 }
@@ -461,35 +461,35 @@ article picture {
   object-fit: cover;
   overflow: hidden;
   margin-bottom: 16px;
-  background-image: url("https://www.dropbox.com/s/nvwo5169a3ch1os/EH_Background_6.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_6_k21lkp.jpg");
 }
 
 article:nth-of-type(2) picture {
-  background-image: url("https://www.dropbox.com/s/9vgoc7sajccybyz/EH_Background_4.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_4_e6twhx.jpg");
 }
 
 article:nth-of-type(3) picture {
-  background-image: url("https://www.dropbox.com/s/enp85gxw6egocil/EH_Background_2.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341391/EH_Background_2_wrzma4.jpg");
 }
 
 article:nth-of-type(4) picture {
-  background-image: url("https://www.dropbox.com/s/p0rfdk001j0vn2l/EH_Background_5.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_5_geu5hi.jpg");
 }
 
 article:nth-of-type(5) picture {
-  background-image: url("https://www.dropbox.com/s/zejau07hcvkelmx/EH_Background_7.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_7_cuvpgh.jpg");
 }
 
 article:nth-of-type(6) picture {
-  background-image: url("https://www.dropbox.com/s/dn4qhwldzf40qom/EH_Background_8.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_8_yps45q.jpg");
 }
 
 article:nth-of-type(7) picture {
-  background-image: url("https://www.dropbox.com/s/f0hxh7o80b3hjbx/EH_Background_9.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341394/EH_Background_9_bgeptz.jpg");
 }
 
 article:nth-of-type(8) picture {
-  background-image: url("https://www.dropbox.com/s/1i958ss9llrr3jf/EH_Background_10.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_8_yps45q.jpg");
 }
 
 
@@ -570,7 +570,7 @@ section li::before{
   display: inline-block;
   height: 16px;
   width: 32px;
-  background-image: url("https://www.dropbox.com/s/p9dpfsdjcyqjncc/EH_Arrow_2_Web.svg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341384/EH_Arrow_2_Web_duarb2.svg");
   background-repeat: no-repeat;
   margin-left: -40px;
   padding-right: 6px;
@@ -586,7 +586,7 @@ section .half-page.background-half a {
   justify-content: space-between;
   background: var(--Yellow);
   width: 260px;
-  padding: 20px;
+  padding: 15px 20px;
   font-family: var(--EHtype);
   text-decoration: none;
   color: var(--black);
@@ -737,15 +737,15 @@ time {
   margin-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("https://www.dropbox.com/s/enp85gxw6egocil/EH_Background_2.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341391/EH_Background_2_wrzma4.jpg");
 }
 
 .team-member:nth-of-type(2) picture {
-  background-image: url("https://www.dropbox.com/s/zejau07hcvkelmx/EH_Background_7.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_7_cuvpgh.jpg");
 }
 
 .team-member:nth-of-type(3) picture {
-  background-image: url("https://www.dropbox.com/s/nvwo5169a3ch1os/EH_Background_6.jpg?raw=1");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_6_k21lkp.jpg");
 }
 
 .team-member picture .melissa {
@@ -1161,7 +1161,7 @@ h2 {
 }
 
 .section-index-mobile h2 {
-  font-size: 6vw;
+  font-size: 10vw;
   }
 
 h3 {
@@ -1341,12 +1341,12 @@ header .nav-contact {
 
 .half-page-index {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 
 section .half-page.background-half {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   padding: 0 20px;
 }
 
@@ -1358,7 +1358,7 @@ section .half-page.background-half.four {
   margin-top: -80px;
   color: var(--Yellow);
   text-align: center;
-  font-size: 6vw;
+  font-size: 10vw;
 }
 
 .section-index-mobile a {
@@ -1545,7 +1545,7 @@ padding-right: 20px;
 .home-slideshow-container {
 	display: block;
   	width: 100%;
-  	height: 90vh;
+  	height: 100vh;
 }
 
 .testimonial {
