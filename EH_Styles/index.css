@@ -1328,7 +1328,7 @@ header .nav-contact {
 }
 
 .main-wrapper {
-  padding-top: 155px;
+  padding-top: 148px;
 }
 
 .section-index {
@@ -1354,7 +1354,7 @@ section .half-page.background-half.four {
   margin-top: -80px;
   color: var(--Yellow);
   text-align: center;
-  font-size: 12vw;
+  font-size: 6vw;
 }
 
 .section-index-mobile a {
@@ -1368,6 +1368,9 @@ margin: 0 auto;
   font-size: 24px;
   padding-left: 10px;
   padding-right: 10px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mobile-header-image {
@@ -1413,6 +1416,7 @@ section .half-page.long {
  padding-left: 20px;
  padding-right: 20px;
  padding-bottom: 20px;
+ padding-top: 148px;
 }
 
 .half-page.normal h2 {
@@ -1657,14 +1661,41 @@ h2 {
 font-size: 10vw;
 }
 
+.section-index-mobile h2 {
+font-size: 12vw;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.section-index-mobile p {
+width:100%;
+}  
+
 .section-instructions p {
   font-size: 10vw;
 }
 
 .journal-flex article {
-  padding: 0 0 40px 0;
+  padding: 0 0 20px 0;
   flex-basis: 100%
 }
+
+.main-wrapper {
+  padding-top: 155px;
+}
+
+
+section .half-page.long {
+padding-top: 160px;
+}
+
+article time {
+  font-size: 12px;
+}
+
 
 article picture {
   height: 60vw;
