@@ -81,6 +81,17 @@ h4 {
   display: block;
 }
 
+h6 {
+  font-family: var(--EHtype);
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--Yellow);
+  text-align: left;
+  margin-bottom: 16px;
+  margin-top: 0px;
+  display: block;
+}
+
 p {
   font-family: var(--EHtype);
   font-size: 24px;
@@ -776,7 +787,7 @@ time {
 
 .section-instructions {
   background-color: white;
-  padding: 20px 10%;
+  padding: 20px 10%; 
 }
 
 .section-instructions p {
@@ -816,6 +827,25 @@ time {
   display: block;
   max-width: 80%;
   margin: 20px auto;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.video-responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 section dl {
@@ -1164,6 +1194,9 @@ h2 {
 
 .section-index-mobile h2 {
   font-size: 10vw;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 h3 {
@@ -1193,6 +1226,8 @@ section .half-page.normal {
 
 .half-page p {
   font-size: 18px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .section-instructions p {
@@ -1201,7 +1236,7 @@ section .half-page.normal {
 }
 
 .section-slideshow h3 {
-  font-size: 8vw;
+  font-size: 6vw;
 }
 
 .main-wrapper cite {
@@ -1374,7 +1409,7 @@ margin: 0 auto;
   font-size: 24px;
   padding-left: 10px;
   padding-right: 10px;
-  width: 70%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1399,6 +1434,9 @@ section p {
 section ul {
   font-size: 18px;
   padding-bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section li::before{
@@ -1448,7 +1486,7 @@ section blockquote cite {
 }
 
 .section-instructions {
-  padding: 0 20px;
+  padding: 0 10%;
 }
 
 .section-instructions p {
@@ -1676,6 +1714,14 @@ h4 {
   margin-bottom: 10px;
 }
 
+.section-instructions {
+  padding: 0 20px;
+}
+
+.section-slideshow h3 {
+  font-size: 8vw;
+}
+
 .section-index-mobile p {
 width:100%;
 }  
@@ -1687,6 +1733,15 @@ width:100%;
 .journal-flex article {
   padding: 0 0 20px 0;
   flex-basis: 100%
+}
+
+.half-page p {
+width: 100%;
+
+}
+
+section ul {
+  width: 100%;
 }
 
 .main-wrapper {
