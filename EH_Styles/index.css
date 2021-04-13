@@ -1153,7 +1153,7 @@ footer button {
 } 
 
 h1 {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 h2 {
@@ -1612,9 +1612,32 @@ footer button {
 }
 
 footer .footer-info {
-  flex-direction: column;
   padding: 20px;
+  flex-wrap: wrap;
 }
+
+.footer-info div:first-child {
+  flex-basis: 50%;
+  border-right: 0.5px solid black;
+  padding-right: 40px;
+}
+
+.footer-info div:nth-child(2) {
+  flex-basis: 48%;
+}
+
+.footer-info div:nth-child(3) {
+  flex-basis: 50%;
+  border-right: 0.5px solid black;
+  padding-right: 20px;
+
+}
+
+.footer-info div:nth-child(4) {
+  flex-basis: 48%;
+}
+
+
 
 }
 
@@ -1622,4 +1645,47 @@ footer .footer-info {
 
 .index-mobile {
   padding-top: 20%;
+}
+
+h1 {
+  font-size: 18px;
+padding: 16px;
+}
+
+footer .footer-info {
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footer-info div:first-child {
+  padding-right: 0;
+  border-right: none;
+  text-align: center;
+  border-bottom: solid 0.5px black;
+  margin-bottom: 20px;
+
+}
+
+.footer-info div:nth-child(2) {
+  flex-basis: 48%;
+  text-align: center;
+  border-bottom: solid 0.5px black;
+  margin-bottom: 20px;
+}
+
+.footer-info div:nth-child(3) {
+  flex-basis: 50%;
+  border-right: none;
+  padding-right: 0px;
+  text-align: center;
+  border-bottom: solid 0.5px black;
+  margin-bottom: 20px;
+
+}
+
+.footer-info div:nth-child(4) {
+  flex-basis: 48%;
+  text-align: center;
+}
+
 }
