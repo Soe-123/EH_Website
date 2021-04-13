@@ -1160,6 +1160,10 @@ h2 {
   font-size: 6vw;
 }
 
+.section-index-mobile h2 {
+  font-size: 6vw;
+  }
+
 h3 {
   font-size: 24px;
   width: 100%;
