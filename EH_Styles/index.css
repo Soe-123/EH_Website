@@ -457,10 +457,9 @@ section .half-page.long {
   overflow: scroll;
 }
 
+/* -------------------------------- */
 
-
-
-/* Mission, Evidence */
+/* Mission, Evidence, Journal */
 
 .half-page.long h2 {
   color: var(--black);
@@ -552,9 +551,6 @@ article:nth-of-type(8) picture {
   background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_8_yps45q.jpg");
 }
 
-
-
-
 article picture img {
   height: 120%;
   object-fit: cover;
@@ -582,8 +578,6 @@ article picture img:hover {
   margin: 0px;
   padding-bottom: 20px;
 }
-
-
 
 section p {
   font-family: var(--EHtype);
@@ -659,14 +653,14 @@ section .half-page.background-half a img {
   padding-left: 10px;
 }
 
-/* About */
 
 .mobile-header-image {
   display: none;
 }
 
+/* -------------------------------- */
 
-/* Journal */
+/* Journal Articles */
 
 .main-wrapper h2 {
   color: var(--black);
@@ -765,6 +759,8 @@ time {
   flex-basis: 33%;
 }
 
+/* -------------------------------- */
+
 /* Team */
 
 .team-member h4 {
@@ -833,6 +829,8 @@ time {
   mix-blend-mode: multiply;
 }
 
+/* -------------------------------- */
+
 /* Workshops */
 
 .section-instructions {
@@ -883,10 +881,9 @@ time {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 56.25%;
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
 .video-responsive-iframe {
   position: absolute;
   top: 0;
@@ -1063,45 +1060,7 @@ section dl a {
   object-fit: cover;
 }
 
-
-
-/* The dots/bullets/indicators 
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-*/
-
-/* Fading animation */
-/*
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: 1}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: 1}
-  to {opacity: 1}
-}
-*/
+/* -------------------------------- */
 
 /* Footer */
 
@@ -1134,18 +1093,15 @@ color: var(--accentBlue);
 }
 
 footer dd {
-  margin: 0;
-  
+  margin: 0; 
 }
 
 footer dl {
-  margin-top: -18px;
-  
+  margin-top: -18px; 
 }
 
 footer dt {
-  margin-top: 18px;
-  
+  margin-top: 18px; 
 }
 
 footer li {
@@ -1216,7 +1172,7 @@ footer button {
 
 }
 
-
+/* -------------------------------- */
 
 @media screen and (max-width: 1000px) {
 
@@ -1224,18 +1180,18 @@ footer button {
   display: none;
 }
 
-  #menu-btn:checked ~ .nav-menu {
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    margin: 0 auto;
-    z-index: 1;
+#menu-btn:checked ~ .nav-menu {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
 }
 
 .centre-wrapper {
-    width: 88%;
-    margin: 0 auto;
-    padding: 0 20px;
+  width: 88%;
+  margin: 0 auto;
+  padding: 0 20px;
 } 
 
 h1 {
@@ -1586,7 +1542,7 @@ section blockquote cite {
 }
 
 article picture {
-height: 30vw;
+  height: 30vw;
 }  
 
 article .read-more {
@@ -1640,7 +1596,7 @@ article .read-more {
 }
 
 .prev, .next {
-padding-right: 20px;
+  padding-right: 20px;
 }
 
 
@@ -1660,12 +1616,6 @@ padding-right: 20px;
   height: 60vw;
   width: 60vw;
 } 
-
-
-/* Index Slideshow */
-
-
-
 
 .home-slideshow-container {
 	display: block;
@@ -1728,11 +1678,11 @@ footer form {
 }
 
 footer label {
-display: block;
-width: 100%;
-text-align: center;
-padding: 0;
-margin-bottom: 16px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 16px;
 }
 
 #email {
@@ -1765,16 +1715,15 @@ footer .footer-info {
   flex-basis: 50%;
   border-right: 0.5px solid black;
   padding-right: 20px;
-
 }
 
 .footer-info div:nth-child(4) {
   flex-basis: 48%;
 }
 
-
-
 }
+
+/* -------------------------------- */
 
 @media screen and (max-width: 600px) {
 
