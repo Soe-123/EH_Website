@@ -85,25 +85,43 @@ h6 {
   font-family: var(--EHtype);
   font-size: 1.8vw;
   font-weight: 500;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   display: block;
   line-height: 0.9;
 }
 
 .coming-soon-circle {
-  background:black;
-  width: 10vw;
-  height: 10vw;
-  border-radius: 10vw;
+  background: var(--Yellow);
+  position: relative;
+  width: 8vw;
+  height: 8vw;
   display: flex;
   align-items: center;
   justify-items: center;
-  margin-top: 140px;
+  margin-top: 160px;
   animation: rotation 6s infinite linear;
   padding-top:0.5vw;
-  border: solid 4px white;
+
 }
+
+.coming-soon-circle:before, .coming-soon-circle:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--Yellow);
+  z-index: -1;
+}
+
+.coming-soon-circle:before { transform: rotate(60deg); }
+.coming-soon-circle:after { transform: rotate(30deg); }
+.price-new, .text-new {
+  color: #FFF;
+  font-weight: bold;
+  margin: 0;
+}
+
 
 @keyframes rotation {
   from {
@@ -1108,7 +1126,11 @@ footer p {
 
 footer a {
   text-decoration: none;
-  color: var(--accentBlue);
+  color: black;
+}
+
+footer a:hover {
+color: var(--accentBlue);
 }
 
 footer dd {
@@ -1211,7 +1233,7 @@ footer button {
 }
 
 .centre-wrapper {
-    width: 100%;
+    width: 88%;
     margin: 0 auto;
     padding: 0 20px;
 } 
@@ -1247,9 +1269,17 @@ h6 {
   margin-right: auto;
   width: 20vw;
   height: 20vw;
-  border-radius: 20vw;
   padding-top: 1vw;
-  margin-bottom: 15%;
+  margin-bottom: 20%;
+}
+
+.coming-soon-circle:before, .coming-soon-circle:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--Yellow);
+  z-index: -1;
 }
 
 section .half-page.background-half.three {
@@ -1709,6 +1739,7 @@ margin-bottom: 16px;
   margin: 0;
   width: 70%;
   border-radius: 0;
+  height: 46.5px;
 }
 
 footer button {
@@ -1776,14 +1807,25 @@ h6 {
 }
 
 .coming-soon-circle {
-margin-left: auto;
-margin-right: auto;
-width: 40vw;
-  height: 40vw;
-  border-radius: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 31vw;
+  height: 31vw;
   padding-top: 1vw;
-  margin-bottom: 5%;
+  margin-bottom: 12%;
+}
 
+.coming-soon-circle:before, .coming-soon-circle:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--Yellow);
+  z-index: -1;
+}
+
+.centre-wrapper {
+  width: 100%;
 }
 
 section dl {
