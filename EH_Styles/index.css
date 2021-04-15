@@ -83,13 +83,40 @@ h4 {
 
 h6 {
   font-family: var(--EHtype);
-  font-size: 24px;
+  font-size: 1.8vw;
   font-weight: 500;
-  color: var(--Yellow);
-  text-align: left;
-  margin-bottom: 16px;
-  margin-top: 0px;
+  color: white;
+  text-align: center;
   display: block;
+  line-height: 0.9;
+}
+
+.coming-soon-circle {
+  background:black;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 10vw;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-top: 140px;
+  animation: rotation 6s infinite linear;
+  padding-top:0.5vw;
+  border: solid 4px white;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.space {
+  height: 10vw;
+  margin-bottom: 20px;
 }
 
 p {
@@ -125,12 +152,13 @@ hr {
   background: var(--Yellow);
   width: 260px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 15px;
   font-family: var(--EHtype);
   text-decoration: none;
   color: var(--black);
   font-size: 24px;
   border: none;
+  border-radius: 3px;
 }
 
 .paypal button {
@@ -140,7 +168,8 @@ hr {
   background: var(--Yellow);
   width: 260px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 15px;
+  border-radius: 3px;;
   font-family: var(--EHtype);
   text-decoration: none;
   color: var(--black);
@@ -324,6 +353,7 @@ header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 
 .section-index .half-page p {
   color: var(--Yellow);
+  width: 70%;
 }
 
 section {
@@ -380,6 +410,7 @@ section .half-page.background-half.two {
 }
 
 section .half-page.background-half.three {
+  justify-content: space-between;
   background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341392/EH_Background_3_t83olm.jpg");
   background-repeat: no-repeat;
   background-size: 300%;
@@ -598,6 +629,7 @@ section .half-page.background-half a {
   background: var(--Yellow);
   width: 260px;
   padding: 15px 20px;
+  border-radius: 3px;
   font-family: var(--EHtype);
   text-decoration: none;
   color: var(--black);
@@ -1206,6 +1238,25 @@ h3 {
   margin-top: 24px;
 }
 
+h6 {
+  font-size: 3.6vw;
+}
+
+.coming-soon-circle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 20vw;
+  padding-top: 1vw;
+  margin-bottom: 15%;
+}
+
+section .half-page.background-half.three {
+  justify-content: center;
+  padding-bottom: 140px;
+}
+
 h3 img {
   width: 24px;
 }
@@ -1225,7 +1276,7 @@ section .half-page.normal {
 }
 
 .half-page p {
-  font-size: 18px;
+  font-size: 24px;
   width: 80%;
   margin: 0 auto;
 }
@@ -1406,13 +1457,15 @@ margin: 0 auto;
   color: var(--Yellow);
   margin-top: 10px;
   text-align: center;
-  font-size: 24px;
+  font-size: 36px;
   padding-left: 10px;
   padding-right: 10px;
-  width: 60%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
+
+
 
 .mobile-header-image {
   margin-bottom: 24px;
@@ -1432,7 +1485,7 @@ section p {
 }
 
 section ul {
-  font-size: 18px;
+  font-size: 24px;
   padding-bottom: 20px;
   width: 80%;
   margin-left: auto;
@@ -1472,12 +1525,12 @@ section .half-page.normal {
 }
 
 section dl {
-  font-size: 18px;
+  font-size: 24px;
   padding: 0;
 }
 
 section blockquote {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 section blockquote cite {
@@ -1567,8 +1620,10 @@ padding-right: 20px;
 }
 
 .team-member p {
-  font-size: 18px;
+  font-size: 24px;
   padding-bottom: 0px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .team-member picture {
@@ -1595,7 +1650,7 @@ padding-right: 20px;
 }
 
 .testimonial blockquote {
-  font-size: 18px;
+  font-size: 24px;
   margin: 0;
   padding-left: 0;
   padding-right: 0;
@@ -1693,7 +1748,6 @@ footer .footer-info {
 @media screen and (max-width: 600px) {
 
 .index-mobile {
-  padding-top: 20%;
 }
 
 h1 {
@@ -1707,12 +1761,38 @@ font-size: 10vw;
 
 .section-index-mobile h2 {
 font-size: 12vw;
+width: 100%;
+margin-top: 0;
 }
 
 h4 {
   font-size: 18px;
   margin-bottom: 10px;
 }
+
+
+h6 {
+  font-size: 7.2vw;
+}
+
+.coming-soon-circle {
+margin-left: auto;
+margin-right: auto;
+width: 40vw;
+  height: 40vw;
+  border-radius: 40vw;
+  padding-top: 1vw;
+  margin-bottom: 5%;
+
+}
+
+section dl {
+  font-size: 18px;
+}
+
+.testimonial blockquote {
+  font-size: 18px;
+} 
 
 .section-instructions {
   padding: 0 20px;
@@ -1723,6 +1803,7 @@ h4 {
 }
 
 .section-index-mobile p {
+  font-size: 24px;
 width:100%;
 }  
 
@@ -1737,15 +1818,25 @@ width:100%;
 
 .half-page p {
 width: 100%;
+font-size: 18px;
+}
 
+.team-member p {
+  font-size: 18px;
+  width: 100%;
 }
 
 section ul {
+  font-size: 18px;
   width: 100%;
 }
 
 .main-wrapper {
   padding-top: 155px;
+}
+
+section blockquote {
+  font-size: 18px;
 }
 
 
@@ -1755,6 +1846,10 @@ padding-top: 160px;
 
 article time {
   font-size: 12px;
+}
+
+article a {
+  font-size: 18px;
 }
 
 
