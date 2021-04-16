@@ -516,7 +516,7 @@ article time {
 
 article picture {
   display: block;
-  height: 100%;
+  height: 20vw;
   object-fit: cover;
   overflow: hidden;
   margin-bottom: 16px;
