@@ -57,27 +57,30 @@ h2 {
   font-weight: 500;
   color: var(--black);
   margin: 0 0 20px 0;
-  line-height: 1.1;
+  line-height: 1.35;
 }
 
 h3 {
   font-family: var(--EHtype);
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 500;
   color: black;
   text-align: left;
   margin: 32px auto 0px auto;
   display: block;
   width: 80%;
+  max-width: 1260px;
+  line-height: 1.35;
 }
 
 h4 {
   font-family: var(--EHtype);
   font-size: 18px;
+  line-height: 24px;
   font-weight: 500;
   color: black;
   text-align: left;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
   margin-top: 0px;
   display: block;
 }
@@ -150,11 +153,12 @@ h6 {
 
 p {
   font-family: var(--EHtype);
-  font-size: 24px;
+  font-size: 18px;
   color: var(--black);
   font-weight: 500;
   margin: 0px;
   padding-bottom: 40px;
+  line-height: 1.35;
 }
 
 figcaption {
@@ -518,10 +522,10 @@ article a {
 
 article time {
   font-family: "century_schoolbook_monospacRg";
-  font-size: 18px;
+  font-size: 12px;
   color: var(--accentRed);
   text-align: left;
-  margin: 0;
+  margin: 0 0 6px 0;
 }
 
 article picture {
@@ -692,7 +696,7 @@ height: auto;
 
 .main-wrapper h2 {
   color: var(--black);
-  margin: 0 auto 32px auto;
+  margin: 0 auto 18px auto;
   text-align: center;
   display: block;
 }
@@ -700,6 +704,7 @@ height: auto;
 h3 img {
   display: inline;
   width: 36px;
+  padding-left: 6px;
 }
 
 .centre-wrapper h4 {
@@ -709,7 +714,7 @@ h3 img {
 
 .main-wrapper cite { 
   font-family: var(--EHtype);
-  font-size: 36px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   color: var(--accentRed);
@@ -717,6 +722,8 @@ h3 img {
   margin: 0 auto 32px auto;
   display: block;
   width: 80%;
+  max-width: 1260px;
+  line-height: 1.35;
 }
 
 .main-wrapper {
@@ -726,6 +733,7 @@ h3 img {
 .centre-wrapper {
   width: 60%;
   margin: 0 auto;
+  max-width: 960px;
 }
 
 .hero-image {
@@ -739,6 +747,7 @@ h3 img {
   background-repeat: no-repeat;
   background-size: 200%;
   background-position: center;
+  padding: 0 40px;
 }
 
 .hero-image img {
@@ -1969,6 +1978,7 @@ article time {
 
 article a {
   font-size: 18px;
+  line-height: 24px;
 }
 
 
