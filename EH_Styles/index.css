@@ -2085,6 +2085,14 @@ width:100%;
   font-size: 30px;
 }
 
+#email {
+  font-size: 16px;
+  height: 38px;
+}
+
+footer form {
+  font-size: 16px;
+}
 
 .journal-flex article {
   padding: 0 0 20px 0;
