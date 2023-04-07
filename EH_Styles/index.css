@@ -54,7 +54,7 @@ h1 {
 
 h2 {
   font-family: var(--EHtype);
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 500;
   color: var(--black);
   margin: 0 0 10px 0;
@@ -198,7 +198,8 @@ hr {
 .half-page a{
   font-family: "century_schoolbook_monospacRg";
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
+  word-spacing: -6px;
 }
 
 .paypal button {
@@ -475,7 +476,7 @@ section .half-page.long {
   background: var(--background);
   display: flex;
   flex-direction: column;
-  padding: 160px 40px;
+  padding: 90px 40px;
   overflow: scroll;
 }
 
@@ -748,7 +749,7 @@ h3 img {
 }
 
 .main-wrapper {
-  padding-top: 160px;
+  padding-top: 90px;
 }
 
 .centre-wrapper {
@@ -786,10 +787,10 @@ h3 img {
 
 time { 
   font-family: "century_schoolbook_monospacRg";
-  font-size: 18px;
+  font-size: 14px;
   color: var(--accentRed);
   display: block;
-  margin: 0 auto 32px auto;
+  margin: -20px auto 32px auto;
   text-align: center;
 }
 
@@ -1358,7 +1359,7 @@ footer button {
 }
 
 .centre-wrapper {
-  width: 88%;
+  width: 80%;
   margin: 0 auto;
   padding: 0 20px;
 } 
@@ -1381,7 +1382,7 @@ h2 {
 h3 {
   font-size: 36px;
   width: 100%;
-  padding: 0 20px;
+  padding: 0 40px;
   margin-top: 24px;
 }
 
@@ -1416,6 +1417,10 @@ section .half-page.background-half.three {
   padding-bottom: 140px;
 }
 
+.case-study .two-images {
+  width: 100%;
+}
+
 h3 img {
   width: 24px;
 }
@@ -1435,7 +1440,7 @@ section .half-page.normal {
 }
 
 .half-page p {
-  font-size: 24px;
+  font-size: 20px;
   width: 80%;
   margin: 0 auto;
 }
@@ -1450,10 +1455,18 @@ section .half-page.normal {
 }
 
 .main-wrapper cite {
-  font-size: 24px;
+  font-size: 14px;
   width: 100%;
-  padding: 0 20px;
+  padding: 0 40px;
   margin-bottom: 24px;
+}
+
+.main-wrapper h3 {
+  font-size: 24px;
+}
+
+.main-wrapper h3 a {
+  font-size: 25px;
 }
 
 .main-wrapper blockquote {
@@ -1473,6 +1486,10 @@ section .half-page.normal {
   padding-bottom: 20px;
 }
 
+.sub-image {
+  width: 100%;
+}
+
 figcaption {
   font-size: 12px;
   margin-bottom: 24px;
@@ -1480,6 +1497,8 @@ figcaption {
 
 time {
   margin-bottom: 24px;
+  font-size: 14px;
+  margin-top: -6px;
 }
 
 header {
@@ -1575,12 +1594,12 @@ header .nav-contact {
 .mobile-header-image {
   display: block;
   width: 100%;
-  height: 60vw;
+  height: 68vw;
   margin-bottom: 32px;
 }
 
 .main-wrapper {
-  padding-top: 148px;
+  padding-top: 90px;
 }
 
 .section-index {
@@ -1645,7 +1664,7 @@ section p {
 }
 
 section ul {
-  font-size: 24px;
+  font-size: 20px;
   padding-bottom: 20px;
   width: 80%;
   margin-left: auto;
@@ -1673,7 +1692,7 @@ section .half-page.long {
  padding-left: 20px;
  padding-right: 20px;
  padding-bottom: 20px;
- padding-top: 148px;
+ padding-top: 90px;
 }
 
 .half-page.normal h2 {
@@ -1923,7 +1942,7 @@ margin-top: 0;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
@@ -1939,6 +1958,27 @@ h5 {
 p {
  font-size: 16px;
  padding-bottom: 20px;
+}
+
+.main-wrapper h3 {
+  font-size: 20px;
+  padding: 0 20px;;
+}
+
+.main-wrapper h3 a{
+  font-size: 20px;
+  word-spacing: -2px;
+}
+
+.main-wrapper cite {
+  font-size: 12px;
+padding: 0 20px;
+margin-top: 3px;
+}
+
+
+.centre-wrapper p {
+  font-size: 16px;;
 }
 
 .case-study a {
@@ -1998,7 +2038,7 @@ section dl a {
 }
 
 .testimonial blockquote {
-  font-size: 18px;
+  font-size: 16px;
 } 
 
 .section-instructions {
@@ -2067,7 +2107,7 @@ section ul {
 }
 
 .main-wrapper {
-  padding-top: 155px;
+  padding-top: 90px;
 }
 
 section blockquote {
@@ -2076,11 +2116,16 @@ section blockquote {
 
 
 section .half-page.long {
-padding-top: 160px;
+padding-top: 80px;
+}
+
+time {
+  font-size: 12px;
 }
 
 article time {
   font-size: 12px;
+  margin-bottom: 0;
 }
 
 article a {
