@@ -1503,6 +1503,7 @@ time {
 header {
   padding: 0;
   margin: 0;
+  position: relative; ;
 }
 
 header nav {
@@ -1551,6 +1552,9 @@ nav .top-nav {
   display: inline-block;
   justify-content: space-between;
   width: 50%;
+  position: relative;
+  z-index: 100;
+
 }
 
 header .menu-icon {
