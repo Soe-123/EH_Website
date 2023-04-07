@@ -10,6 +10,7 @@
     --accentRed: #ff0000;
     --accentBlue: #0000ff;
     --EHtype: "Tschichold Book W05 Regular";
+    --EHtype2: "century_schoolbook_monospacRg";
 }
 
 @font-face{
@@ -56,7 +57,7 @@ h2 {
   font-size: 48px;
   font-weight: 500;
   color: var(--black);
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   line-height: 1.35;
 }
 
@@ -75,8 +76,8 @@ h3 {
 
 h4 {
   font-family: var(--EHtype);
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 1.35;
   font-weight: 500;
   color: black;
   text-align: left;
@@ -87,7 +88,7 @@ h4 {
 
 h5 {
   font-family: var(--EHtype);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--accentRed);
   text-align: left;
@@ -153,7 +154,7 @@ h6 {
 
 p {
   font-family: var(--EHtype);
-  font-size: 18px;
+  font-size: 20px;
   color: var(--black);
   font-weight: 500;
   margin: 0px;
@@ -192,6 +193,12 @@ hr {
   font-size: 24px;
   border: none;
   border-radius: 3px;
+}
+
+.half-page a{
+  font-family: "century_schoolbook_monospacRg";
+  text-decoration: none;
+  font-size: 22px;
 }
 
 .paypal button {
@@ -386,7 +393,8 @@ header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 
 .section-index .half-page p {
   color: var(--Yellow);
-  width: 70%;
+  width: 100%;
+  max-width: 520px;
 }
 
 section {
@@ -513,16 +521,28 @@ article .read-more a {
 
 article a {
   font-family: var(--EHtype);
-  font-size: 18px;
+  font-size: 20px;
   color: black;
   text-align: left;
   text-decoration: none;
-  display: block;
+}
+
+h3 a {
+  font-family: "century_schoolbook_monospacRg";
+  font-size: 28px;
+  word-spacing: -8px;
+  margin-left: 5px;
+  color: var(--accentBlue);
+}
+
+.in-text_link {
+  color: var(--accentBlue);
+  font-size: 20px;
 }
 
 article time {
   font-family: "century_schoolbook_monospacRg";
-  font-size: 12px;
+  font-size: 14px;
   color: var(--accentRed);
   text-align: left;
   margin: 0 0 6px 0;
@@ -534,7 +554,7 @@ article picture {
   object-fit: cover;
   overflow: hidden;
   margin-bottom: 16px;
-  border-radius: 20px;
+  border-radius: 0px;
   background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_6_k21lkp.jpg");
 }
 
@@ -596,7 +616,7 @@ article picture img:hover {
 
 .half-page p {
   font-family: var(--EHtype);
-  font-size: 24px;
+  font-size: 20px;
   color: black;
   font-weight: 500;
   margin: 0px;
@@ -614,44 +634,45 @@ section p {
 
 section blockquote {
   font-family: var(--EHtype);
-  font-size: 24px;
+  font-size: 20px;
   color: black;
   border-left: solid 24px var(--Yellow);
   padding-left: 24px;
   margin: 0 0 40px 0;
-
+  line-height: 1.35;
 }
 section cite {
-  font-family: var(--EHtype);
-  font-size: 24px;
+  font-family: "century_schoolbook_monospacRg";
+  font-size: 14px;
   color: var(--accentRed);
   display: block;
-  padding-top: 24px;
+  margin-top: 6px;
   font-style: normal;
 }
 
 section ul {
   font-family: var(--EHtype);
-  font-size: 24px;
+  font-size: 20px;
   color: black;
   padding: 0 0 40px 0;
   margin: 0;
+  line-height: 1.35;
 }
 
 section li {
   list-style: none;
-  margin-left: 40px;
+  margin-left: 32px;
  }
 
 section li::before{
   content: '';
   display: inline-block;
-  height: 16px;
-  width: 32px;
+  height: 12px;
+  width: 20px;
   background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341384/EH_Arrow_2_Web_duarb2.svg");
   background-repeat: no-repeat;
-  margin-left: -40px;
-  padding-right: 6px;
+  margin-left: -32px;
+  padding-right: 12px;
 }
 
 section .half-page.normal p {
@@ -713,13 +734,13 @@ h3 img {
 }
 
 .main-wrapper cite { 
-  font-family: var(--EHtype);
-  font-size: 24px;
+  font-family: "century_schoolbook_monospacRg";
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   color: var(--accentRed);
   text-align: left;
-  margin: 0 auto 32px auto;
+  margin: 6px auto 32px auto;
   display: block;
   width: 80%;
   max-width: 1260px;
@@ -873,11 +894,13 @@ time {
 .section-instructions {
   background-color: white;
   padding: 20px 10%; 
+  margin-top: 40px;
 }
 
 .section-instructions p {
   color: black;
   padding-top: 20px;
+  font-size: 20px;
 }
 .section-video {
   display: block;
@@ -968,16 +991,20 @@ time {
 .workshops-programme div p {
   text-align: center;
   margin-top: 15px;
+  font-family: var(--EHtype);
+  font-size: 14px;
+  width: 160px;
 }
 
 section dl {
   font-family: var(--EHtype);
-  font-size: 24px;
+  font-size: 20px;
   color: black;
   font-weight: 500;
   margin: 0 auto;
   padding: 20px 0 0 40px;
   flex-basis: 50%;
+  line-height: 1.35;
 }
 
 section dt {
@@ -990,6 +1017,9 @@ section dd {
 
 section dl a {
   color: var(--accentBlue);
+  font-family: var(--EHtype2);
+  text-decoration: none;
+  font-size: 22px;
 }
 
 
@@ -1007,6 +1037,7 @@ section dl a {
   display: block;
   padding-top: 40px;
   padding-bottom: 30px;
+  margin-bottom: -40px;
 }
 
 .slideshow-container {
@@ -1085,21 +1116,21 @@ section dl a {
 
 .case-study {
   padding: 40px 0;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;
+  max-width: 960px;
 }
 
 .case-study picture {
-  width: 80%;
+  width: 100%;
   margin: 0 0 40px 0;
 }
 
 .case-study picture img{
   
-
 }
 
 .case-study h3{
@@ -1110,6 +1141,17 @@ section dl a {
 .case-study p:first-of-type{
   color: var(--accentRed);
   padding-bottom: 10px;
+  font-family: var(--EHtype2);
+  font-size: 14px;
+}
+
+.case-study a {
+  font-family: var(--EHtype2);
+  color: var(--accentBlue);
+  font-size: 22px;
+  text-decoration: none;
+  word-spacing: -4px;
+  padding-left: 3px;
 }
 
 .case-study .two-images {
@@ -1131,7 +1173,7 @@ section dl a {
 
 .main-wrapper blockquote cite {
   margin: 0;
-  font-size: 24px;
+  font-size: 14px;
   width: 100%;
 }
 
@@ -1148,6 +1190,7 @@ section dl a {
   margin: 0;
   width: 100%;
   border: 0;
+  line-height: 1.35;
 }
 
 .testimonial blockquote p {
@@ -1158,7 +1201,9 @@ section dl a {
 }
 
 .testimonial blockquote cite {
-  padding-top: 24px;
+  padding-top: 6px;
+  
+
 }
 
 .testimonial picture { 
@@ -1192,13 +1237,15 @@ section dl a {
   display: flex;
   justify-content: space-between;
   padding: 20px 40px 10px 40px;
-  font-size: 18px;
+  font-size: 14px;
+  line-height: 1.35;
 }
 
 
 footer p {
   font-family: var(--EHtype);
-  font-size: 18px;
+  font-size: 14px;
+  line-height: 1.35;
   font-weight: 500;
   margin: 0;
   padding-bottom: 18px;
@@ -1317,11 +1364,11 @@ footer button {
 } 
 
 h1 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 h2 {
-  font-size: 6vw;
+  font-size: 36px;
 }
 
 .section-index-mobile h2 {
@@ -1332,7 +1379,7 @@ h2 {
   }
 
 h3 {
-  font-size: 24px;
+  font-size: 36px;
   width: 100%;
   padding: 0 20px;
   margin-top: 24px;
@@ -1358,6 +1405,10 @@ h6 {
   height: 100%;
   background: var(--Yellow);
   z-index: -1;
+}
+
+.case-study {
+  width: 80%
 }
 
 section .half-page.background-half.three {
@@ -1391,11 +1442,11 @@ section .half-page.normal {
 
 .section-instructions p {
   text-align: center;
-  font-size: 6vw;
+  font-size: 36px;
 }
 
 .section-slideshow h3 {
-  font-size: 6vw;
+  font-size: 36px;
 }
 
 .main-wrapper cite {
@@ -1463,6 +1514,7 @@ header .nav-logo {
   display: block;
   margin: 0 auto 0 0;
   padding-left: 20px;
+  width: 180px;
 } 
 
 header .nav-dropdown {
@@ -1633,7 +1685,7 @@ section .half-page.normal {
 }
 
 section dl {
-  font-size: 24px;
+  font-size: 20px;
   padding: 0;
 }
 
@@ -1647,7 +1699,7 @@ section blockquote cite {
 }
 
 .section-instructions {
-  padding: 0 10%;
+  padding: 20px 10% 30px 10%;
 }
 
 .section-instructions p {
@@ -1683,8 +1735,8 @@ article .read-more {
 }
 
 .section-slideshow {
-  padding-top: 20px;
-  padding-bottom: 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .section-slideshow h3 {
@@ -1748,7 +1800,7 @@ article .read-more {
 .testimonial {
   flex-direction: column;
   width: 100%;
-  padding: 20px;
+  padding: 40px;
 }
 
 .testimonial blockquote {
@@ -1783,7 +1835,8 @@ article .read-more {
 }
 
 .main-wrapper blockquote cite {
-  font-size: 18px;
+  font-size: 14px;
+  padding-top: 6px;
 }
 
 .half-page.background-half button {
@@ -1850,12 +1903,17 @@ footer .footer-info {
 @media screen and (max-width: 600px) {
 
 h1 {
-  font-size: 18px;
-  padding: 16px;
+  font-size: 16px;
+  padding: 12px;
+  line-height: 1.35;
 }
 
 h2 {
-font-size: 10vw;
+font-size: 30px;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 .section-index-mobile h2 {
@@ -1872,6 +1930,31 @@ h4 {
 
 h6 {
   font-size: 7.2vw;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+p {
+ font-size: 16px;
+ padding-bottom: 20px;
+}
+
+.case-study a {
+  font-size: 18px;
+}
+
+.case-study .two-images {
+  width: 100%;
+}
+
+.case-study picture {
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  padding: 20px;
 }
 
 .coming-soon-circle {
@@ -1892,11 +1975,25 @@ h6 {
   z-index: -1;
 }
 
+.section-slideshow {
+  padding-bottom: 0px;
+  padding-left: 0;
+}
+
 .centre-wrapper {
   width: 100%;
 }
 
+.case-study {
+  width: 100%;
+  padding: 20px;
+}
+
 section dl {
+  font-size: 16px;
+}
+
+section dl a {
   font-size: 18px;
 }
 
@@ -1915,6 +2012,7 @@ section dl {
 .workshops-programme {
   flex-direction: column;
   margin-top: 0;
+  width: 100%;
 }
 
 .workshops-programme div {
@@ -1922,12 +2020,20 @@ section dl {
 }
 
 .workshops-programme div picture {
-  width: 100%;
-  height: 100%;
+  width: calc(100vw - 40px);
+  height: calc(100vw - 40px);
+
 }
 
 .workshops-programme div picture img {
   height: 100%;
+}
+
+.workshops-programme div p {
+  margin: 16px auto 0 auto;
+  font-size: 16px;
+  line-height: 1.35;
+  width: 80%;;
 }
 
 .section-index-mobile p {
@@ -1936,8 +2042,9 @@ width:100%;
 }  
 
 .section-instructions p {
-  font-size: 10vw;
+  font-size: 30px;
 }
+
 
 .journal-flex article {
   padding: 0 0 20px 0;
