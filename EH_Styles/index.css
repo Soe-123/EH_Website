@@ -1629,6 +1629,7 @@ section .half-page.background-half.four {
   color: var(--Yellow);
   text-align: center;
   font-size: 36px;
+  line-height: 1.2;
 }
 
 .section-index-mobile a {
