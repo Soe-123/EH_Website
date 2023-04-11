@@ -776,7 +776,7 @@ h3 img {
   width: 100%;
   object-fit: cover;
   position: relative;
-  top: -10%;
+  height: 100%;
 }
 
 .sub-image {
@@ -995,6 +995,7 @@ time {
   font-family: var(--EHtype);
   font-size: 14px;
   width: 160px;
+  margin: 15px auto 0 auto
 }
 
 section dl {
@@ -1136,7 +1137,7 @@ section dl a {
 
 .case-study h3{
   text-align: center;
-  margin: 0px 0 30px 0;
+  margin: 0px 0 20px 0;
 }
 
 .case-study p:first-of-type{
@@ -1216,16 +1217,18 @@ section dl a {
   background-size: 170%;
   border-radius: 50%;
   overflow: hidden;
+  object-fit: cover;
+
 }
 
 
 .testimonial picture img {
   position: relative;
-  height: 16vw;
+  height: 100%;
+  width: 100%;
   filter: grayscale(100%) contrast(1) blur(0);
   opacity:  1;
   mix-blend-mode: multiply;
-  object-fit: cover;
 }
 
 /* -------------------------------- */
@@ -1461,11 +1464,11 @@ section .half-page.normal {
 }
 
 .main-wrapper h3 {
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .main-wrapper h3 a {
-  font-size: 25px;
+  font-size: 36px;
 }
 
 .main-wrapper blockquote {
@@ -1602,7 +1605,7 @@ header .nav-contact {
 }
 
 .main-wrapper {
-  padding-top: 90px;
+  padding-top: 30px;
 }
 
 .section-index {
@@ -1652,6 +1655,7 @@ margin: 0 auto;
 
 .mobile-header-image {
   margin-bottom: 24px;
+  height: 63vw;
 }
 
 section {
@@ -1842,12 +1846,12 @@ article .read-more {
 }
 
 .testimonial picture {
-  width: 30vw;
-  height: 30vw;
+  width: 300px;
+  height: 300px;
 }
 
 .testimonial picture img {
-  height: 30vw;
+
 } 
 
 .testimonial blockquote p {
@@ -1965,7 +1969,7 @@ p {
 }
 
 .main-wrapper h3 {
-  font-size: 20px;
+  font-size: 30px;
   padding: 0 20px;;
 }
 
@@ -1978,6 +1982,11 @@ p {
   font-size: 12px;
 padding: 0 20px;
 margin-top: 3px;
+}
+
+.hero-image {
+  padding: 0 20px;
+  height: 63vw;
 }
 
 
@@ -1995,10 +2004,6 @@ margin-top: 3px;
 
 .case-study picture {
   margin-bottom: 20px;
-}
-
-.hero-image {
-  padding: 20px;
 }
 
 .coming-soon-circle {
@@ -2030,7 +2035,7 @@ margin-top: 3px;
 
 .case-study {
   width: 100%;
-  padding: 20px;
+  padding: 30px 20px 20px 20px;
 }
 
 section dl {
@@ -2050,13 +2055,14 @@ section dl a {
 }
 
 .section-slideshow h3 {
-  font-size: 8vw;
+  font-size: 30px;
 }
 
 .workshops-programme {
   flex-direction: column;
   margin-top: 0;
   width: 100%;
+  padding-bottom: 40px;
 }
 
 .workshops-programme div {
@@ -2064,8 +2070,8 @@ section dl a {
 }
 
 .workshops-programme div picture {
-  width: calc(100vw - 40px);
-  height: calc(100vw - 40px);
+  width: 300px;
+  height: 300px;
 
 }
 
@@ -2080,6 +2086,8 @@ section dl a {
   width: 80%;;
 }
 
+
+
 .section-index-mobile p {
   font-size: 24px;
 width:100%;
@@ -2087,6 +2095,10 @@ width:100%;
 
 .section-instructions p {
   font-size: 30px;
+}
+
+.section-instructions {
+  margin-top: 24px
 }
 
 #email {
@@ -2128,7 +2140,7 @@ section ul {
 }
 
 .main-wrapper {
-  padding-top: 90px;
+  padding-top: 20px;
 }
 
 section blockquote {
@@ -2137,7 +2149,7 @@ section blockquote {
 
 
 section .half-page.long {
-padding-top: 80px;
+padding-top: 20px;
 }
 
 time {
