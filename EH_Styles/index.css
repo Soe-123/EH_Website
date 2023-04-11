@@ -1345,6 +1345,10 @@ footer button {
 
 }
 
+.index-desktop a {
+  word-spacing: 0;
+}
+
 /* -------------------------------- */
 
 @media screen and (max-width: 1000px) {
