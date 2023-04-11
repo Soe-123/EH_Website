@@ -1827,6 +1827,7 @@ article .read-more {
   	width: 100%;
   	height: 85vh;
     overflow: hidden;
+    margin-top: -138px;
 }
 
 .testimonial {
