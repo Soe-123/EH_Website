@@ -1373,10 +1373,52 @@ footer button {
 
 h1 {
   font-size: 20px;
+  text-align: left;
+  padding-left: 20px
 }
 
 h2 {
   font-size: 36px;
+}
+
+.index-mobile {
+  background-color: var(--background);
+}
+
+.home-list {
+  padding: 20px;
+  height: autopx;
+}
+
+.index-mobile  .mobile-header-image {
+  height: auto;
+}
+
+.home-list.two {
+  background-color: white;
+}
+
+.home-list a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--Yellow);
+    width: 260px;
+    padding: 15px 20px;
+    border-radius: 3px;
+    font-family: var(--EHtype);
+    text-decoration: none;
+    color: var(--black);
+    font-size: 24px;
+}
+
+.home-list p {
+  padding-bottom: 20px;
+}
+
+.home-list a img {
+  width: 25%;
+  padding-left: 10px;
 }
 
 .section-index-mobile h2 {
@@ -1704,7 +1746,7 @@ section .half-page.long {
  padding-left: 20px;
  padding-right: 20px;
  padding-bottom: 20px;
- padding-top: 90px;
+ padding-top: 24px;
 }
 
 .half-page.normal h2 {
@@ -1882,14 +1924,15 @@ article .read-more {
 
 footer form {
   flex-wrap: wrap;
-  padding: 20px 20px 30px 20px;
+  padding: 20px 20px 30px 18px;
 }
 
 footer label {
   display: block;
   width: 100%;
-  text-align: center;
+  text-align: left;
   padding: 0;
+  padding-left: 4px;
   margin-bottom: 16px;
 }
 
@@ -1941,7 +1984,7 @@ footer .footer-info {
 
 h1 {
   font-size: 16px;
-  padding: 12px;
+  padding: 16px 20px;
   line-height: 1.35;
 }
 
@@ -2189,7 +2232,6 @@ footer .footer-info {
 .footer-info div:first-child {
   padding-right: 0;
   border-right: none;
-  text-align: center;
   border-bottom: solid 0.5px black;
   margin-bottom: 20px;
 
@@ -2197,7 +2239,6 @@ footer .footer-info {
 
 .footer-info div:nth-child(2) {
   flex-basis: 48%;
-  text-align: center;
   border-bottom: solid 0.5px black;
   margin-bottom: 20px;
 }
@@ -2206,7 +2247,6 @@ footer .footer-info {
   flex-basis: 50%;
   border-right: none;
   padding-right: 0px;
-  text-align: center;
   border-bottom: solid 0.5px black;
   margin-bottom: 20px;
 
@@ -2214,8 +2254,9 @@ footer .footer-info {
 
 .footer-info div:nth-child(4) {
   flex-basis: 48%;
-  text-align: center;
 }
+
+
 
 .section-index-mobile a {
   word-spacing: 0;
