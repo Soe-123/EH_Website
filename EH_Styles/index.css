@@ -572,23 +572,25 @@ article:nth-of-type(4) picture {
 }
 
 article:nth-of-type(5) picture {
-  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_7_cuvpgh.jpg");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1681488953/EH_British_Libary_14_kvnjer.jpg");
 }
 
 article:nth-of-type(6) picture {
-  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_8_yps45q.jpg");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1681488719/EH_British_Libary_13_badamb.jpg");
 }
 
 article:nth-of-type(7) picture {
-  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341394/EH_Background_9_bgeptz.jpg");
-}
-
-article:nth-of-type(8) picture {
   background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_8_yps45q.jpg");
 }
 
+article:nth-of-type(8) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341394/EH_Background_9_bgeptz.jpg");
+  
+  
+}
+
 article:nth-of-type(9) picture {
-  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341391/EH_Background_2_wrzma4.jpg");
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_7_cuvpgh.jpg");
 }
 
 article:nth-of-type(10) picture {
@@ -710,6 +712,17 @@ section .half-page.background-half a img {
 
 .journal-image {
   padding-bottom: 0px;
+}
+
+.journal-two-images {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.caption-two-images {
+  width: 100%;
+  margin-right: auto;
 }
 
 .journal-image img{
