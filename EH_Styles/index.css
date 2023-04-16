@@ -2060,6 +2060,11 @@ p {
  padding-bottom: 20px;
 }
 
+.case-study p:first-of-type {
+  text-align: left;
+  margin-right: auto;
+}
+
 .main-wrapper h2 {
   text-align: left;
   margin-left: 20px;
@@ -2067,7 +2072,8 @@ p {
 
 .main-wrapper h3 {
   font-size: 30px;
-  padding: 0 20px;;
+  padding: 0 0px;;
+  text-align: left;;
 }
 
 .main-wrapper h3 a{
@@ -2086,6 +2092,10 @@ margin-top: 3px;
   height: 63vw;
 }
 
+.testimonial {
+  padding: 20px;
+}
+
 
 .centre-wrapper p {
   font-size: 16px;;
@@ -2101,6 +2111,12 @@ margin-top: 3px;
 
 .case-study picture {
   margin-bottom: 20px;
+}
+
+.main-wrapper blockquote {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .coming-soon-circle {
@@ -2122,8 +2138,10 @@ margin-top: 3px;
 }
 
 .section-slideshow {
+  padding-top: 30px;
   padding-bottom: 0px;
-  padding-left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .centre-wrapper {
@@ -2145,6 +2163,7 @@ section dl a {
 
 .testimonial blockquote {
   font-size: 16px;
+  text-align: left;;
 } 
 
 .section-instructions {
@@ -2155,20 +2174,36 @@ section dl a {
   font-size: 30px;
 }
 
+.testimonial picture {
+  width: calc( 100vw - 40px);
+  height: calc( 100vw - 40px);
+  margin-left: 0px;
+}
+
+.testimonial blockquote cite {
+  text-align: left;
+  padding-left: 0;
+  padding-top: 3px;
+}
+
 .workshops-programme {
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 0;
   width: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+  align-items: left;
+  justify-content: space-between;
 }
 
 .workshops-programme div {
-  flex-basis: 100%;
+  flex-basis: 50%;
+  margin: 0 auto;
 }
 
 .workshops-programme div picture {
-  width: 300px;
-  height: 300px;
+  width: calc(50vw - 30px);
+  height: calc(50vw - 30px);
+margin: 0 aut;
 
 }
 
@@ -2181,6 +2216,7 @@ section dl a {
   font-size: 16px;
   line-height: 1.35;
   width: 80%;;
+  text-align: left;
 }
 
 
@@ -2192,6 +2228,8 @@ width:100%;
 
 .section-instructions p {
   font-size: 30px;
+  text-align: left;
+  padding-bottom: 20px;
 }
 
 .section-instructions {
