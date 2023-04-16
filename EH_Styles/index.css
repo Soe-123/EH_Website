@@ -1016,7 +1016,8 @@ time {
   font-family: var(--EHtype);
   font-size: 20px;
   width: 250px;
-  margin: 15px auto 0 auto
+  margin: 15px auto 0 auto;
+  color: black;
 }
 
 section dl {
@@ -1051,12 +1052,12 @@ section dl a {
 
 .section-slideshow h3 {
   text-align: center;
-  color: white;
+  color: black;
   margin: 0 auto 20px auto;
 }
 
 .section-slideshow {
-  background-color: black;
+  background-color: var(--accentRed);
   display: block;
   padding-top: 40px;
   padding-bottom: 30px;
@@ -2063,8 +2064,13 @@ p {
 .case-study p:first-of-type {
   text-align: left;
   margin-right: auto;
+  padding-bottom: 4px;
 }
 
+.case-study h3{
+
+  margin: 0px 0 10px 0;
+}
 .main-wrapper h2 {
   text-align: left;
   margin-left: 20px;
@@ -2138,7 +2144,7 @@ margin-top: 3px;
 }
 
 .section-slideshow {
-  padding-top: 30px;
+  padding-top: 25px;
   padding-bottom: 0px;
   padding-left: 20px;
   padding-right: 20px;
@@ -2215,7 +2221,7 @@ margin: 0 aut;
   margin: 16px auto 0 auto;
   font-size: 16px;
   line-height: 1.35;
-  width: 80%;;
+  width: 100%;;
   text-align: left;
 }
 
@@ -2229,7 +2235,7 @@ width:100%;
 .section-instructions p {
   font-size: 30px;
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .section-instructions {
