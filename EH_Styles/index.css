@@ -1374,6 +1374,12 @@ footer button {
 
 @media screen and (max-width: 1000px) {
 
+header .nav-menu {
+  top: 0;
+  left: 0;
+  transform: none;
+}
+
 .index-desktop {
   display: none;
 }
@@ -1639,7 +1645,6 @@ nav .nav-menu {
   max-height: 0;
   overflow: hidden;
   position: relative;
-  top: -15vh;
   z-index: 0;
   padding-left: 0;
 }
@@ -1661,7 +1666,8 @@ nav .nav-journal {
 }
 
 header .nav-contact {
-  margin-right: auto;
+  margin-right: 0 auto;
+  width: 100%;
 }
 
 .mobile-header-image {
@@ -2006,7 +2012,7 @@ font-size: 20px;
 }
 
 footer button {
-  padding: 13px 0 9.5px 0;
+  padding: 14px 0 9.5px 0;
 }
 
 }
@@ -2052,6 +2058,11 @@ h5 {
 p {
  font-size: 16px;
  padding-bottom: 20px;
+}
+
+.main-wrapper h2 {
+  text-align: left;
+  margin-left: 20px;
 }
 
 .main-wrapper h3 {
@@ -2189,7 +2200,7 @@ width:100%;
 
 #email {
   font-size: 16px;
-  height: 37px;
+  height: 40px;
 }
 
 footer form {
@@ -2199,6 +2210,7 @@ footer form {
 footer button {
   font-weight: 400;
   text-decoration: none;
+  padding: 13px 0 9.5px 0;
 }
 
 .journal-flex article {
