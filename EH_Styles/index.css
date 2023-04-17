@@ -1373,6 +1373,10 @@ footer button {
   word-spacing: 0;
 }
 
+.index-mobile {
+display: none;
+}
+
 /* -------------------------------- */
 
 @media screen and (max-width: 1000px) {
@@ -1412,6 +1416,7 @@ h2 {
 }
 
 .index-mobile {
+  display: block;
   background-color: var(--background);
 }
 
