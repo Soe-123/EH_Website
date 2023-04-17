@@ -906,6 +906,8 @@ time {
   mix-blend-mode: multiply;
 }
 
+
+
 /* -------------------------------- */
 
 /* Workshops */
@@ -1372,6 +1374,14 @@ footer button {
 
 .index-mobile {
 display: none;
+}
+
+.team-member .role {
+  font-family: "century_schoolbook_monospacRg";
+  font-size: 14px;
+  color: var(--accentRed);
+  text-align: center;
+  margin: -24px 0 0 0;
 }
 
 /* -------------------------------- */
@@ -2019,6 +2029,15 @@ font-size: 20px;
 
 footer button {
   padding: 14px 0 9.5px 0;
+}
+
+.team-member .role {
+  font-family: "century_schoolbook_monospacRg";
+  font-size: 14px;
+  color: var(--accentRed);
+  text-align: center;
+  margin: -6px 0 20px 0;
+  width: 100%;
 }
 
 }
