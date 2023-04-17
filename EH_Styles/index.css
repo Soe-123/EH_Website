@@ -1389,9 +1389,9 @@ header .nav-menu {
 
 #menu-btn:checked ~ .nav-menu {
   position: relative;
-  min-height: 100vh;
+  min-height: 117vh;
   width: 100%;
-  margin: 0 auto;
+  margin: -17vh auto 0 auto;
   z-index: 1;
 }
 
@@ -1651,7 +1651,6 @@ nav .nav-menu {
   z-index: 0;
   padding-left: 0;
   justify-content: center;
-  padding-bottom: 17%
 }
 
 header .nav-dropdown:active .nav-dropdown-content {
