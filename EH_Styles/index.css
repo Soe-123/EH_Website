@@ -1580,6 +1580,21 @@ section .half-page.normal {
   width: 100%;
 }
 
+.workshops-programme div {
+  flex-basis: 50%;
+  gap: 20px;
+}
+
+.workshops-programme div picture {
+  height: 38vw;
+  width: 38vw;
+}
+
+.workshops-programme div picture img {
+  height: auto;
+}
+
+
 figcaption {
   font-size: 12px;
   margin-bottom: 24px;
@@ -1857,6 +1872,7 @@ article .read-more {
 
 .section-slideshow h3 {
   margin-bottom: 20px;
+ 
 }
 
 .slideshow-container {
@@ -2202,6 +2218,7 @@ section dl a {
 
 .section-slideshow h3 {
   font-size: 30px;
+  text-align: center;
 }
 
 .testimonial picture {
@@ -2246,7 +2263,7 @@ margin: 0 aut;
   font-size: 16px;
   line-height: 1.35;
   width: 100%;;
-  text-align: left;
+  text-align: center;
 }
 
 
