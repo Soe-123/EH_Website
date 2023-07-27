@@ -1295,6 +1295,7 @@ footer p {
   font-weight: 500;
   margin: 0;
   padding-bottom: 18px;
+  max-width: 280px;
 
 }
 
