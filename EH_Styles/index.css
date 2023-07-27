@@ -594,15 +594,21 @@ article:nth-of-type(7) picture {
 article:nth-of-type(8) picture {
   background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341394/EH_Background_9_bgeptz.jpg");
   
-  
 }
-
 article:nth-of-type(9) picture {
   background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_7_cuvpgh.jpg");
 }
 
 article:nth-of-type(10) picture {
   background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_6_k21lkp.jpg");
+}
+
+article:nth-of-type(11) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1681488719/EH_British_Libary_13_badamb.jpg");
+}
+
+article:nth-of-type(12) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341393/EH_Background_5_geu5hi.jpg");
 }
 
 article picture img {
