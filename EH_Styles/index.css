@@ -1254,6 +1254,19 @@ section dl a {
   mix-blend-mode: multiply;
 }
 
+.lottery {
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.lottery-text {
+  width: 250px;
+  font-size: 14px !important;
+  border-top: 1px black solid;
+  padding-top: 15px;
+}
+
 /* -------------------------------- */
 
 /* Footer */
@@ -2055,6 +2068,16 @@ footer button {
   margin: -6px 0 20px 0;
   width: 100%;
 }
+
+.lottery {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lottery-text {
+  max-width: 250px;
+  margin-right:auto;
+  margin-left: 0;
 
 }
 
