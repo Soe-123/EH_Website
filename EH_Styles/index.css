@@ -997,6 +997,27 @@ time {
   margin: 5px 0;
 }
 
+.funders-logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 40px auto 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.funders-logos div picture {
+  display: block;
+  width: 10vw;
+  height: 10vw;
+  margin: 0 auto;
+  background-size: 100%;
+  overflow: hidden;
+  margin: 0 15px;
+}
+
+
 .workshops-programme div picture {
   display: block;
   width: 16vw;
@@ -1011,6 +1032,13 @@ time {
 .workshops-programme div picture img {
   position: relative;
   height: 16vw;
+  opacity: 1;
+  object-fit: cover;
+}
+
+.funders-logos div picture img {
+  position: relative;
+  height: 9vw;
   opacity: 1;
   object-fit: cover;
 }
@@ -1057,18 +1085,26 @@ section dl a {
 /* Slideshow */
 /* Slideshow container */
 
-.section-slideshow h3 {
+.section-slideshow h3, .section-funding h3 {
   text-align: center;
   color: black;
   margin: 0 auto 20px auto;
 }
 
 .section-slideshow {
-  background-color: var(--accentRed);
+  background-color: rgb(0, 255, 34);
   display: block;
   padding-top: 40px;
   padding-bottom: 30px;
   margin-bottom: -40px;
+}
+
+.section-funding{
+  background-color: white;
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .slideshow-container {
@@ -1782,6 +1818,11 @@ margin: 0 auto;
   height: 63vw;
 }
 
+
+.funders-logos {
+  width: 100%;
+}
+
 section {
   flex-direction: column;
 }
@@ -2086,6 +2127,10 @@ footer button {
   margin-right:auto;
   margin-left: 0;
 
+}
+
+.section-funding h3 {
+  text-align: center !important;
 }
 
 /* -------------------------------- */
@@ -2444,5 +2489,24 @@ footer .footer-info {
   width: 50px;
   padding-left: 10px;
 }
+
+.funders-logos {
+margin-top: 20px;
+margin-bottom: -20px;
+}
+
+.funders-logos div picture {
+  display: block;
+  width: 20vw;
+  height: 20vw;
+}
+
+.funders-logos div picture img {
+  height: 18vw;
+  }
+
+  .section-funding {
+    padding-top: 20px;
+  }
 
 }
