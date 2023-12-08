@@ -200,6 +200,7 @@ hr {
   text-decoration: none;
   font-size: 20px;
   word-spacing: -6px;
+  color: blue;
 }
 
 .paypal button {
@@ -1328,7 +1329,7 @@ section dl a {
 .lottery {
   width: 200px;
   margin-bottom: 20px;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 .lottery-text {
