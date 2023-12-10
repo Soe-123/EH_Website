@@ -1332,6 +1332,10 @@ section dl a {
   margin-top: 20px;
 }
 
+.lottery img {
+  mix-blend-mode: multiply !important;
+}
+
 .lottery-text {
   width: 250px;
   font-size: 14px !important;
