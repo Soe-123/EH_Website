@@ -640,6 +640,27 @@ article:nth-of-type(19) picture {
   background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1701165260/EH_Background_10_bxxaxn.jpg");
 }
 
+article:nth-of-type(20) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1709564927/EH_Background_21_iirfzy.jpg");
+}
+
+article:nth-of-type(21) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1709564928/EH_Background_20_et7gyz.jpg");
+}
+
+article:nth-of-type(22) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1709564926/EH_Background_22_zfxmzp.jpg");
+}
+
+article:nth-of-type(23) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1709564925/EH_Background_23_szb6vn.jpg");
+}
+
+article:nth-of-type(24) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1709564925/EH_Background_24_uo0kv7.jpg");
+}
+
+
 
 article picture img {
   height: 100%;
@@ -690,7 +711,7 @@ section blockquote {
 }
 section cite {
   font-family: "century_schoolbook_monospacRg";
-  font-size: 14px;
+  font-size: 18px;
   color: var(--accentRed);
   display: block;
   margin-top: 6px;
@@ -1270,7 +1291,7 @@ section dl a {
 
 .main-wrapper blockquote cite {
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
   width: 100%;
 }
 
