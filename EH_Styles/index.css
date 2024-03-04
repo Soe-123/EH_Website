@@ -2063,6 +2063,16 @@ article .read-more {
   text-align: center;
 }
 
+.testimonial.journal blockquote {
+  font-size: 24px;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+
+  padding-top: 0px;
+  text-align: center;
+}
+
 .testimonial blockquote cite {
   padding-top: 18px;
   text-align: center;
@@ -2339,6 +2349,16 @@ section dl a {
 
 .testimonial blockquote {
   font-size: 16px;
+  text-align: left;;
+} 
+
+.testimonial.journal blockquote {
+  font-size: 16px;
+  text-align: left;;
+} 
+
+.testimonial.journal blockquote cite {
+  font-size: 12px;
   text-align: left;;
 } 
 
