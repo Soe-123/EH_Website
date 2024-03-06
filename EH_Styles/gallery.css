@@ -1,0 +1,125 @@
+.journal-flex {
+    display: flex;
+    padding: 0 20px 20px 20px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    }
+.gallery-item {
+    flex-basis: 25%;
+    padding: 40px 20px 40px 20px;
+    cursor: pointer;
+    height: calc(100% + 40px);
+}
+
+.gallery-item figcaption {
+text-align: center;
+line-height: 1.3;
+padding-top: 20px;;
+margin-top: 0px;
+margin-bottom: 0;
+}
+
+.gallery-item:hover {
+    opacity: 1;
+}
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+}
+.gallery-content {
+    font-size: .8em;
+}
+
+.lightbox {
+    position: fixed;
+    display: none;
+    background-color: rgba(255, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;              
+    overflow: auto;
+    top: 0;
+    left: 0;
+}
+.lightbox-content {
+    position: relative;
+    width: 70%;
+    height: 80%;
+    margin: 7% auto 5% auto;
+}
+.lightbox-content img {
+    box-shadow: 0 0 3px 0 rgba(225, 225, 225, .25);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.lightbox-prev {
+    content: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341384/EH_Arrow_2_Web_duarb2.svg");
+    position: absolute;
+    color: #fff;
+    top: 45%;
+    cursor: hand;
+    width: 100px;
+    transform: rotate(180deg);
+}
+
+
+.lightbox-next {
+    content: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1618341384/EH_Arrow_2_Web_duarb2.svg");
+    position: absolute;
+    color: #fff;
+    top: 45%;
+    cursor: hand;
+    width: 100px;
+
+}
+
+
+.lightbox-prev {
+    left: -150px;
+}
+.lightbox-next {
+    right: -150px;
+}
+.lightbox-prev:hover,
+.lightbox-next:hover {
+}
+
+@media screen and (max-width: 1000px) {
+    .gallery-container {
+        width: 100%;
+    }
+    .journal-flex .gallery-item {
+        padding: 0 10px 40px 10px;
+        flex-basis: 50%;
+        height: calc(100% + 40px);
+}
+    .lightbox-content {
+        width: 80%;
+        height: 60%;
+        margin: 15% auto;
+    }
+
+    .lightbox-prev {
+    top: 100%;
+    left: 0px;
+    }
+
+    .lightbox-next {
+    top: 100%;
+    right: 0px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .journal-flex .gallery-item {
+        padding: 0 0 20px 0;
+        flex-basis: 100%
+      }
+
+    .lightbox-content {
+        width: 90%;
+        margin: 20% auto;
+    }
+}
