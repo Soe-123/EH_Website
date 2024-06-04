@@ -660,6 +660,23 @@ article:nth-of-type(24) picture {
   background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1709564925/EH_Background_24_uo0kv7.jpg");
 }
 
+article:nth-of-type(25) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1717501925/EH_Background_27_e37jvp.jpg");
+}
+
+article:nth-of-type(26) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1717501786/EH_Background_25_nuxkjv.jpg");
+}
+
+article:nth-of-type(27) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1717501783/EH_Background_26_lbjrzg.jpg");
+}
+
+article:nth-of-type(28) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1717501778/EH_Background_28_mldhng.jpg");
+}
+
+
 
 
 article picture img {
