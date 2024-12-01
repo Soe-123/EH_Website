@@ -890,8 +890,8 @@ time {
   font-size: 14px;
   color: var(--accentRed);
   display: block;
-  margin: -20px auto 32px auto;
-  text-align: center;
+  margin: -20px auto 32px 0;
+  text-align: left;
 }
 
 .main-wrapper blockquote {
@@ -1700,7 +1700,9 @@ margin-bottom: 16px;
 }
 
 .half-page.long h2 {
-  margin-bottom: 16px;
+  margin: 0 auto 16px auto;
+  text-align: center;
+
 }
 
 section .half-page.normal {
@@ -1783,7 +1785,8 @@ figcaption {
 time {
   margin-bottom: 24px;
   font-size: 14px;
-  margin-top: -6px;
+  margin: -6px auto 32px auto;
+  text-align: center;
 }
 
 header {
