@@ -680,6 +680,25 @@ article:nth-of-type(28) picture {
   background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1717501778/EH_Background_28_mldhng.jpg");
 }
 
+article:nth-of-type(29) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1745930232/EH_Background_34_beqwr2.jpg");
+}
+
+article:nth-of-type(30) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1745930230/EH_Background_36_uy2bli.jpg");
+}
+
+article:nth-of-type(31) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1745930640/EH_Background_37_dhadjx.jpg");
+}
+
+article:nth-of-type(32) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1745930232/EH_Background_35_fwohju.jpg");
+}
+
+article:nth-of-type(33) picture {
+  background-image: url("https://res.cloudinary.com/engage-here-cic/image/upload/v1745930228/EH_Background_39_vpm1dj.jpg");
+}
 
 
 
@@ -985,7 +1004,7 @@ margin-bottom: 10px;
 
 .centre-wrapper iframe {
   display: block;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   margin: 0 auto;
 }
 
@@ -1172,7 +1191,30 @@ margin-bottom: 10px;
   font-size: 20px;
   width: 250px;
   margin: 15px auto 0 auto;
-  color: black;
+  color: rgb(255, 255, 255);
+}
+
+.video-description p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: var(--EHtype);
+  font-size: 20px;
+  max-width: 720px;
+  margin: 15px auto 0 auto;
+  color: rgb(255, 255, 255);
+}
+
+.video-description cite {
+  text-align: center;
+  color: #ff0000;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+
+.video-description cite a {
+  color: #ffe50f;
+  text-decoration: none;
 }
 
 section dl {
@@ -1205,19 +1247,29 @@ section dl a {
 /* Slideshow */
 /* Slideshow container */
 
-.section-slideshow h3, .section-funding h3 {
+.section-funding h3 {
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
+  margin: 0 auto 20px auto;
+}
+
+.section-slideshow h3 {
+  text-align: center;
+  color: rgb(255, 255, 255);
   margin: 0 auto 20px auto;
 }
 
 .section-slideshow {
-  background-color: rgb(0, 255, 34);
+  background-color: rgb(0, 0, 0);
   display: block;
   padding-top: 40px;
   padding-bottom: 30px;
   margin-bottom: -40px;
 }
+
+/* .section-slideshow.process {
+  background-color:#cfd7de;
+} */
 
 .section-funding{
   background-color: white;
@@ -1416,6 +1468,10 @@ section dl a {
   mix-blend-mode: multiply;
 }
 
+.testimonial h2 {
+  margin-bottom: 0 !important;
+}
+
 .lottery {
   width: 200px;
   margin-bottom: 20px;
@@ -1590,6 +1646,10 @@ header .nav-menu {
   width: 80%;
   margin: 0 auto;
   padding: 0 20px;
+} 
+
+.centre-wrapper.make-sense {
+  padding: 0;
 } 
 
 h1 {
@@ -2303,7 +2363,13 @@ hr {
   margin: 0 0 40px -20px;
 }
 
- 
+.video-description p {
+padding-bottom: 40px
+}
+
+.video-description cite {
+  margin-bottom: 50px;
+}
 
 /* -------------------------------- */
 
@@ -2710,5 +2776,44 @@ article h4 {
   text-align: left;
   margin-bottom: 5px;
 }
+
+.video-description p {
+  padding-bottom: 20px;
+  text-align: left;
+  }
+  
+  .video-description cite {
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .testimonial h2 {
+    margin-left: 0px;
+  }
+
+  .section-slideshow h3 {
+    text-align: left;
+  }
+
+  .section-funding h3 {
+    text-align: left !important;
+    padding-left: 20px;;
+  }
+
+  .funders-logos div picture {
+    width: calc(35.5vw - 40px);
+    height: 100%;
+  }
+
+  .funders-logos div picture img {
+    height: calc(50vw - 100px);
+    object-fit: contain;
+  }
+
+  .funders-logos {
+    justify-content: left;
+  }
 
 }
